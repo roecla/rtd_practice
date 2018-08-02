@@ -1,6 +1,7 @@
 """Bla."""
 
 import numpy as np
+from pandas.api.types import is_categorical
 
 
 def my_function(foo):
@@ -13,4 +14,4 @@ def my_function(foo):
         bool: The return value. True for success, False otherwise.
 
     """
-    return np.nan
+    return False
