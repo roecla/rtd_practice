@@ -3,7 +3,7 @@
 
 # from https://github.com/spatialaudio/sfa-numpy/blob/master/readthedocs.yml
 python:
-  version: 3.6
+  version: 3.5
   setup_py_install: true
 
 conda:
