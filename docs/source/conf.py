@@ -21,7 +21,9 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 
-print('\n\n'.join(sys.path))
+print('The path I am adding is:', os.path.abspath('../..'))
+print('All paths:')
+print('\n'.join(sys.path))
 
 # -- General configuration ------------------------------------------------
 
