@@ -1,4 +1,6 @@
+name: rtd_practice
 dependencies:
     - numpy
     - pandas
     - sphinxcontrib-bibtex
+    - sphinx_rtd_theme
