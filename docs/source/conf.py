@@ -19,11 +19,15 @@
 #
 import os
 import sys
-to_add = os.path.abspath('../../../..')
-sys.path.insert(0, to_add)
+sys.path.insert(0, os.path.abspath('../..'))
 
-print('The path I am adding is:', to_add)
-print('It contains:\n', '\n'.join(os.listdir(to_add)))
+print('You are using python version', sys.version)
+print('You are in the folder', os.path.abspath('.'))
+print('It contains:', os.listdir(os.path.abspath('.')))
+print('The parent folder contains:', os.listdir(os.path.abspath('..')))
+print('And its parent folder contains:', os.listdir(os.path.abspath('../..')))
+print('And its parent folder contains:', os.listdir(os.path.abspath('../../..')))
+print('And its parent folder contains:', os.listdir(os.path.abspath('../../..')))
 
 # -- General configuration ------------------------------------------------
 
