@@ -19,11 +19,11 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../..'))
+to_add = os.path.abspath('../../../..')
+sys.path.insert(0, to_add)
 
-print('The path I am adding is:', os.path.abspath('../..'))
-print('All paths:')
-print('\n'.join(sys.path))
+print('The path I am adding is:', to_add)
+print('It contains:\n', '\n'.join(os.listdir(to_add)))
 
 # -- General configuration ------------------------------------------------
 
