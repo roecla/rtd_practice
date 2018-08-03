@@ -4,5 +4,5 @@ API
 
 This is API documentation.
 
-.. automodule:: rtd_practice.api.my_module
+.. automodule:: rtd_practice.my_module
     :members:
