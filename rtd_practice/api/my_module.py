@@ -1,7 +1,7 @@
 """Bla."""
 
-import numpy as np
-from pandas.api.types import is_categorical
+# import numpy as np
+# from pandas.api.types import is_categorical
 
 
 def my_function(foo):
