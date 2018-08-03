@@ -21,15 +21,6 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 
-print('You are using python version', sys.version)
-print('You are in the folder', os.path.abspath('.'))
-print('It contains:', os.listdir(os.path.abspath('.')))
-print('The parent folder contains:', os.listdir(os.path.abspath('..')))
-print('And its parent folder contains:', os.listdir(os.path.abspath('../..')))
-print('The parent folder should contain rtd_practice')
-print('And that folder contains:',
-      os.listdir(os.path.abspath('../../rtd_practice')))
-
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
