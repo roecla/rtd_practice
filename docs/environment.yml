@@ -4,3 +4,4 @@ dependencies:
     - pandas
     - sphinxcontrib-bibtex
     - sphinx_rtd_theme
+    - python=3.5
